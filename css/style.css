@@ -1,0 +1,190 @@
+
+body {
+    display: block;
+    margin: 1px;
+    margin-top: 1px;
+    margin-right: 1px;
+    margin-bottom: 1px;
+    margin-left: 1px;
+}
+
+h1{
+    background-color: grey;
+    text-align: center;
+    color:red;
+     height: 25px;
+     margin: 1px;
+}
+
+h2{
+    background-color: gray;
+    text-align: center;
+    color:red;
+}
+.menu{
+     background-color: green;
+    text-align: center;
+}
+
+.test{
+    background-color: #287265;
+    height: 40px;
+    margin: 1px;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px;
+    
+}
+ul li a {
+    
+    color: #fff;
+    letter-spacing: 0.1rem;
+}
+
+ul li a:hover{ /*effet qd on passe la souris sur le mot*/
+    color: #ffd358;
+    text-decoration: underline;
+}
+
+.social>a>img{
+    height: 50px;
+    width: 50px;
+}
+.socialFlex{
+    display: flex;
+    align-items: center;
+}
+
+.sizeWebSiteIcon>a>img{
+      height: 150px;
+      width: 150px;
+    
+}
+
+
+.footerFlex{
+    display: flex;
+    justify-content: center;
+    background-color: grey;
+}
+
+.imagesFlex{
+     height: 260px;
+     width:  260px;
+     display: flex
+    
+}
+.presentation{
+    display: flex;
+    
+}
+
+.video{  
+    width="560";
+    height="315";
+}
+.imageTop{
+    height: 260px;
+     width:  1224px;
+}
+    
+@media screen and (max-width:1024px){
+    
+    
+body {
+    display: block;
+    margin: 1px;
+    margin-top: 1px;
+    margin-right: 1px;
+    margin-bottom: 1px;
+    margin-left: 1px;
+}
+
+h1{
+    background-color: grey;
+    text-align: center;
+    color:red;
+     height: 25px;
+     margin: 1px;
+}
+
+h2{
+    background-color: gray;
+    text-align: center;
+    color:red;
+}
+.menu{
+     background-color: green;
+    text-align: center;
+}
+
+.test{
+    background-color: #287265;
+    height: 40px;
+    margin: 1px;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px;
+    
+}
+ul li a {
+    
+    color: #fff;
+    letter-spacing: 0.1rem;
+}
+
+ul li a:hover{ /*effet qd on passe la souris sur le mot*/
+    color: #ffd358;
+    text-decoration: underline;
+}
+
+.social>a>img{
+    height: 50px;
+    width: 50px;
+}
+.socialFlex{
+    display: flex;
+    align-items: center;
+}
+
+.sizeWebSiteIcon>a>img{
+      height: 150px;
+      width: 150px;
+    
+}
+
+
+.footerFlex{
+    display: flex;
+    justify-content: center;
+    background-color: grey;
+}
+
+.imagesFlex{
+     height: 300px;
+     width:  100%;
+     display: flex;
+     flex-direction: column;
+     
+    
+}
+.presentation{
+    display: flex;
+    
+}
+
+.video{  
+    width="560";
+    height="315";
+}
+.imageTop{
+    height: 260px;
+     width:  1224px;
+}
+    
+    
+}
