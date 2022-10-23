@@ -86,13 +86,14 @@ ul li a:hover{ /*effet qd on passe la souris sur le mot*/
     height="315";
 }
 .imageTop{
-    height: 260px;
-     width:  1224px;
+    height: 300px;
+    width:  800px;
 }
+
+
     
 @media screen and (max-width:1024px){
-    
-    
+ 
 body {
     display: block;
     margin: 1px;
@@ -106,8 +107,8 @@ h1{
     background-color: grey;
     text-align: center;
     color:red;
-     height: 25px;
-     margin: 1px;
+    height: 25px;
+    margin: 1px;
 }
 
 h2{
@@ -115,8 +116,9 @@ h2{
     text-align: center;
     color:red;
 }
+    
 .menu{
-     background-color: green;
+    background-color: green;
     text-align: center;
 }
 
@@ -143,15 +145,19 @@ ul li a:hover{ /*effet qd on passe la souris sur le mot*/
 }
 
 .social>a>img{
+    
     height: 50px;
     width: 50px;
 }
 .socialFlex{
+    
     display: flex;
     align-items: center;
+    flex-direction: column;
 }
 
 .sizeWebSiteIcon>a>img{
+    
       height: 150px;
       width: 150px;
     
@@ -159,32 +165,38 @@ ul li a:hover{ /*effet qd on passe la souris sur le mot*/
 
 
 .footerFlex{
+    
     display: flex;
     justify-content: center;
     background-color: grey;
+    flex-direction: column;
 }
 
 .imagesFlex{
-     height: 300px;
+     height: 100%;
      width:  100%;
      display: flex;
      flex-direction: column;
-     
     
 }
 .presentation{
+    
     display: flex;
+    flex-direction: column;
     
 }
 
 .video{  
-    width="560";
-    height="315";
+    
+    width: 560px;
+    height: 315px;
+    flex-direction: column;
 }
 .imageTop{
+    
     height: 260px;
-     width:  1224px;
+    width:  500px;
+    flex-direction: column;
 }
-    
-    
+
 }
